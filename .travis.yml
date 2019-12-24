@@ -14,9 +14,7 @@ matrix:
       - { python: '3.8', env: }
       - { arch: arm64, python: '3.8', env: }
       - { python: 'pypy', env: }
-      - { arch: arm64, python: 'pypy', env: }
       - { python: 'pypy3', env: }
-      - { arch: arm64, python: 'pypy3', env: }
 
 install:
  - pip install coverage
